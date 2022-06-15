@@ -19,3 +19,6 @@ code {
  bottom:0;
  right:0;
 }
+input {
+  text-align: center;
+}

@@ -85,6 +85,8 @@ const Login = () => {
               placeholder="Email"
             />
           </div>
+   
+          
 
           <div className="form-group">
             <Input
@@ -98,13 +100,13 @@ const Login = () => {
               placeholder="Password"
             />
           </div>
-
+          <br/>
           <div className="form-group" style={{width: '15%'}}>
-            <button className="btn btn-primary btn-block" disabled={loading}>
+            <button className="btn btn-primary btn-block" style={{backgroundColor: '#214e8f'}} disabled={loading}>
               {loading && (
                 <span className="spinner-border spinner-border-sm"></span>
               )}
-              <span>Login</span>
+              <span >Login</span>
             </button>
           </div>
 
